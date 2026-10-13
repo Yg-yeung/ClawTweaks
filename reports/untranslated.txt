@@ -1,0 +1,750 @@
+  PL2
+ EC Protection Floor
+&#x2022; Curves &amp; unlock state save per power mode&#x0a;&#x2022; Dropdown selects which mode to edit, not the active one&#x0a;&#x2022; Unlock OFF: firmware drives the fan (Custom only via WMI, with firmware-enforced floors)&#x0a;&#x2022; Unlock ON: helper writes the curve directly to EC every 3s, in any mode&#x0a;&#x2022; Axis labels (10&#xB0;C&#x2013;100&#xB0;C) are how the curve is stored; firmware modes may map temps differently
+&#x2022; Never 0% above ~50&#xB0;C&#x0a;&#x2022; 101&#xB0;C software failsafe forces max RPM
+&#x2192;
+&#x26A0; Helper disconnected with EC override active. Fan may be stuck at the last RPM until the helper reconnects, or reboot to clear.
+&#xE70D;
+&#xE70E;
+&#xE711;
+&#xE7BA;
+&#xE916;
+&#xE946;
++ Key  &#x25BE;
+-- RPM
+-- W
+--&#xB0;C
+--°C
+-X
+-Y
+-Z
+0 (0x00)
+0 = off (linear). Held deflection ramps up speed over time.
+0 RPM
+0.0°/s
+0.1 = aggressive (small motion → big stick), 1.0 = linear, 4.0 = relaxed.
+0.1 = aggressive, 1.0 = linear, 4.0 = relaxed
+0/6 selected
+0x80|40
+0x80|80
+0°/s
+1. Required tools
+1.00x
+10 px
+10&#xB0;C
+100&#xB0;C
+100°C
+1200 MHz
+15W
+1800 MHz
+1920x1080
+2. Disable MSI Center M
+220 ms
+220°/s
+2400 MHz
+25W
+2900 MHz
+2X
+2°/s
+3. Enable controller emulation
+3000 MHz
+30W
+30°C
+35W
+3600 MHz
+37W
+3DOF to 2D Conversion
+3DOF to 2D conversion
+3W
+3X
+4200 MHz
+46°C
+4800 MHz
+4W
+4X
+60 Hz
+62°C
+78°C
+800 MHz
+A
+AMD
+AMD Adrenaline Overlay
+AMD Features (FMF, Anti-Lag, Boost, Chill)
+AMD Fluid Motion Frames has been automatically disabled because it conflicts with Lossless Scaling Frame Generation.
+Acceleration
+Accelerometer
+Action
+Activation
+Activation Button
+Activation button
+Activation mode
+Active backend: VIIPER (USBIP). Changes take effect immediately (hot-swap). Note: any virtual device other than Xbox 360 can cause problems due to Game Bar incompatibilities — please test it and report back with feedback.
+Add .exe or .ps1 files. They appear under &quot;Program Actions (User)&quot; when assigning tiles or the front buttons.
+Add Custom Shortcut/Tile
+Add custom RTSS tags (e.g. &lt;FR&gt; for FPS)
+Add websites. They appear under &quot;Launch Website (User)&quot; when assigning tiles or the front buttons.
+Adds a dark backdrop behind the overlay for better contrast
+Adjust display color output
+Adjust per Game Settings
+Allow fan % beyond what MSI does
+Also offer Intel beta graphics drivers (not WHQL certified)
+Alt+F4
+Alt+Left (Back)
+Alt+Right (Forward)
+Alt+Tab
+Always On
+Always display graph on its own row at bottom
+Always on
+Always on, hold, or toggle by button
+Anti-deadzone: minimum output when moving
+Anti-deadzone: minimum stick magnitude when any motion is detected.
+App Choice
+App Default
+App version &amp; updates
+Apps always treated as games
+Apps never treated as games
+Assign a button to a browser/window shortcut or cursor nudge
+Assign a single-click action to the Left MSI (front) button — e.g. open the Steam menu. Opens the full setup in the Controls tab.
+Assign controller button combinations that trigger keyboard shortcuts or Actions defined below.
+Author
+Auto (Native handheld only)
+Auto (Sensor API)
+Auto (default)
+Auto Jump to Clawtweaks on Gamebar Open
+Auto Start RTSS
+Auto-switch to Xbox in Game Bar (experimental)
+AutoScale
+AutoScale Delay (s)
+Automatically check GitHub for new versions
+Automatically detect and scale games
+Axis Select
+B
+BETA
+BVB
+Bahnschrift
+Bahnschrift Condensed
+Bahnschrift Light
+Bahnschrift Light Condensed
+Bahnschrift Light SemiCondensed
+Bahnschrift SemiBold
+Bahnschrift SemiBold Condensed
+Bahnschrift SemiBold SemiCondensed
+Bahnschrift SemiCondensed
+Bahnschrift SemiLight
+Bahnschrift SemiLight Condensed
+Bahnschrift SemiLight SemiCondensed
+Balance between vertical and horizontal output
+Balanced
+Battery (12W)
+Battery: the LED hue follows the charge level (≥90% blue → &lt;20% purple), updated when it crosses a 10% band. The slider above sets its brightness.
+Best Performance
+Best Power Efficiency
+Blacklist
+Block
+Boost
+Boost button
+Boosted
+Bottom center
+Bottom left
+Bottom right
+Box X
+Breathing
+Browse…
+Button
+Button used for hold or toggle activation
+Buttons
+Bypass firmware minimums via direct EC write (per-mode)
+CPU
+CPU Affinity
+CPU EPP
+CPU State
+CPU temperature limit
+CPU:
+CPU: Not detected
+Cancel / close widget
+Candy
+Cap the synthesized stick magnitude. Lower for slower, calmer aim.
+Capture &amp; Overlay
+Catppuccin
+Change the widget appearance
+Check applied values
+Check for Update (Coming Soon)
+Check for driver updates on start
+Check for updates on start (Coming Soon)
+Checking MSI Center M...
+Choose gyro axes for mouse
+Choose how gyro motion is emulated
+Choose what pressing the MSI button does, and which widget the Quick Settings button jumps to.
+Choose which settings are saved per game
+Chrilleteur
+Claw Blue
+Claw Tweaks
+ClawTweaks (built-in)
+ClawTweaks overlay (no game needed)
+ClawTweaks widget position
+Clockwise
+Close Customizations
+Close and restart the game to apply — the controller is only swapped at game start.
+Color
+Color Cycle sweeps smoothly through a colour spectrum. Custom cycle colours are coming in a follow-up.
+Colors
+Columns
+Columns:
+Confirm / toggle focused control
+Conflict Detected
+Controller Guide button
+Controller RGB and power button lighting
+Controller navigation shortcuts
+Controls
+Controls TDP and thermal limits
+Controls power and thermal profile
+Cooling · Early Ramp
+Counter-clockwise
+Ctrl+Shift+Tab (Prev Tab)
+Ctrl+Tab (Next Tab)
+Current state
+Cursor
+Cursor Nudge Down
+Cursor Nudge Left
+Cursor Nudge Right
+Cursor Nudge Up
+Curve Optimizer (All Cores)
+Curve Optimizer (iGPU)
+Custom RTSS Tags
+Customize Tiles and Hotkeys
+Customize per-game capture
+Cyberpunk
+D-Pad
+D-Pad Down
+D-Pad Left
+D-Pad Right
+D-Pad Up
+D-Pad ↓
+DS4 Orientation
+Deadzones and limits for both sticks and triggers, written straight to the controller.
+Define reusable actions — e.g. launch Steam Big Picture, open Playnite, show Alt+Tab overview — that can be assigned to Hotkeys above.
+Define widget position to autojump to ClawTweaks
+Delay (ms)
+Deletes all profiles, controller settings, custom tiles, TDP presets and Quick Settings. Charge limit is disabled and reset to 100 %. The app restarts with factory defaults.
+Desktop Controls
+Detect apps with FPS (RTSS) or added to Xbox Game Bar
+Detection window
+Direct SMU commands - changes apply immediately
+Direction
+Disable Game Bar on Guide button
+Does NOT fix the fan panic. The panic is an EC firmware latch that only a full shutdown clears. For investigation only — stopping these tasks can make a stuck fan worse.
+Double&#10;click
+Double-click action
+Down
+Dracula
+Driver &amp; firmware updates (MSI + Intel)
+DualShock 4 / DualSense Edge only — when on, game-driven LED color overrides the picker color you chose for the Legion Go sticks. Off keeps your saved stick color.
+Dynamic
+E-Core Max Frequency
+EC Sport default (debug)
+Editing global controller profile. Launch a game to use per-game settings.
+Editing is locked until the change has been written.
+Editing the overlay that is active right now.
+Enable Debug Tools
+Enable firmware gyro
+Enables Debug log level + PawnIO diagnostic tools
+Enter content area from tab bar
+Enter custom RTSS tags...
+Escape
+Export All Data (Coming Soon)
+Extended range (&gt;75%)
+Extra Actions
+Fan
+Fan %
+Fan 1 &amp; 2 &#xB7; Sync
+Fan 1:
+Fan 2:
+Fan curve: allow 1–39 %
+Fan max test (Full Blast) — diagnostic only
+Fan override probe — diagnostic only
+Fan: 
+Fast
+Features
+Ferrar I
+Fine-tune mouse behavior
+Firmware (SensorModule)
+Firmware key remaps run entirely on the controller hardware, so they work reliably — including inside games. When off, keystrokes are generated virtually (software), which can stop in-game shortcuts from working; turn this on to use the firmware remaps instead. MSI Claw 8/7 AI+ (A2VM) only.
+Flow Scale
+Focus GoTweaks
+Font for the widget UI
+Forces the EC full-speed override to check whether 100% (EC 150) is really the absolute fan max. Turn ON, wait a few seconds, Read RPM; compare with Aggressive@100%. Turn OFF afterwards.
+Forward game LED requests to physical controller
+Forward right touchpad input to virtual DS4 touchpad
+Frame Sync
+Full + Windowed
+Full Blast OFF
+Full Blast ON
+Full Press
+Fullscreen
+G-Sync / VRR Support
+GPD
+GPD Device
+Game
+Game Detection
+Games only
+Games with profiles always detect regardless of settings
+Generic
+Glass effect
+Glassy sheen + shimmer on tiles (all themes). Applies when you reopen Quick Settings.
+Global performance &amp; display profile
+Graphics
+Guide
+Guide/Mode button
+Gyro gate
+Gyro orientation
+Gyro-to-stick pipeline settings
+HDR Support
+Hair Triggers
+Handheld (device IMU)
+Handheld posture for stick output
+Handheld posture. Switch to Orthogonal if your IMU axes feel rotated 90°.
+Hardware Controller mode: remaps are written to the controller firmware. Keyboard shortcuts and Gamepad→Gamepad remaps apply directly in games. Mouse and Macro types need the Virtual Controller.
+Hardware controller settings, written straight to the controller and kept in sync with MSI Center M.
+Helper Status
+HidHide blocked devices
+HidHide, RTSS and PawnIO are official, signed third-party tools installed via winget; usbip-win2 is the signed vendor driver, downloaded on demand. Individual install / download buttons live under System → Debug → Driver dependencies.
+HidHide: Checking...
+Hide ClawTweaks update banner on Quick tab
+Hide Target
+Hide physical input when virtual controller modes are active
+Hold
+Hold button
+Hold controllers still during calibration
+Hold the controllers still and press the button — bias is captured by the controller firmware.
+Hold-boost
+Horizontal
+Horizontal Custom
+Horizontal Gain
+Hotkeys work when the widget is running, even when not visible.
+How it fits the panel
+Hue
+IMU axis mapping
+Ignore motion below this speed
+Ignore motion below this speed (filters drift / micro-shake).
+Impact
+Import All Data (Coming Soon)
+Improves pacing on VRR displays
+Info &amp; safety notes
+Input source
+Installed BIOS
+Installed version: …
+Installed:
+Intel Anti-Lag
+Intel Arc Sync
+Intel DSA
+Intel Graphics Software Settings
+Intel XeSS MFG
+Intel thermal stack (IPF/DTT) — diagnostic only
+Internal Handheld
+Invert Horizontal
+Invert Vertical
+Invert X
+Invert X Output
+Invert X output
+Invert Y
+Invert Y Output
+Invert Y output
+Items per row (1 = vertical list)
+Joystick Output
+Joystick as Mouse
+Jump back to tab bar from anywhere
+Kernel sensor driver — exposes CPU/GPU power and temperature to the overlay.
+Kernel sensor driver. Exposes CPU/GPU power and temperature to the overlay — without it the power readout stays at 0 W.
+Keyboard
+Keyboard Shortcut
+Keyboard remaps via firmware (works in games)
+L-Stick
+L2
+L3
+L4
+LB
+LS
+LS Left
+LS Right
+LS draws fps counter on top-left of scaled output
+LS1 Type
+LSFG2 Settings
+LSFG3 Settings
+LT
+LT / RT
+Large
+Last Modified
+Latest:
+Launch
+Layout
+Left
+Left Click
+Left Stick Click
+Left click (configurable)
+Left controller
+Legacy controller emulation driver. Only needed when the VIIPER backend is off.
+Legion Go HID (native)
+Legion L is disabled in Special Remapping — set it to &quot;Guide&quot; to route the Xbox button through the emulated device.
+Legion L:
+Legion R:
+Light Mode
+Lighter model for less input lag
+Limit
+Limit battery charging to extend long-term lifespan
+Limits:
+Loius Vuittong
+Lossless Scaling Status
+LtChipotle (GoTweaks), HandheldCompanion
+M1
+M1 (side grip L)
+M2
+M2 (side grip R)
+M3
+M3 (back R lower)
+MSI Center M is active - TDP control unavailable. Disable it via the MSI Center tile in the Quick Tab.
+MSI Center M is active — controller emulation and gyro unavailable. Disable it via the MSI Center tile in the Quick Tab.
+MSI Claw
+MSI Claw DInput (PID_1902)
+MSI Claw Driver Updates
+MSI Default
+MSI max 75%
+Main
+Main mode for all games. Hardware = native XInput + firmware remaps. Virtual = emulated pad, gyro, Mouse Mode &amp; macros. Per game: enable the Controller Profile to set the opposite mode as an exception.
+Manage Program Actions
+Manage URL Actions
+Map Legion L/R buttons and scroll wheel to custom actions
+Map buttons to gamepad, keyboard, or mouse
+Map controller combos to keyboard shortcuts
+Max Cooling
+Max Frame Latency
+Max Joystick Output
+Max gyro input speed
+Max joystick output
+Medium
+Medium-Large
+Menu + ←
+Menu + ↑
+Menu + →
+Menu + ↓
+Min Joystick Output
+Min gyro input speed
+Min joystick output
+Mirror emulated lightbar to stick lights
+Mixed (L+R averaged)
+Mode
+Model
+Mouse
+Mouse Emulation
+Mouse Mode sensitivity, buttons and sticks
+Mouse Settings
+Move cursor
+Multiplier
+Mute / unmute
+Name (A→Z)
+Name:
+Native
+Native (emulated device Guide/PS)
+Native + Xbox 360 bridge
+Navigation Infos
+Negative bias = vertical, positive = horizontal, 0 = balanced.
+Next Gen Claw
+Next image
+Nintendo
+No actions defined yet.
+No apps blacklisted
+No custom games added
+No hotkeys configured yet.
+No saved game profiles
+No unsaved changes
+None = normal D-Pad press (default)
+Nord
+Not Installed
+Note: the limit is enforced by the controller (EC) itself, so it keeps working while the Claw is asleep or shut down but plugged in. The EC value can be cleared by an EC reset, BIOS update or a full battery drain — use Verify to re-check the live value after sleep / hibernation.
+Now Playing
+Nudge Step
+OLED
+OS Power Mode
+OSD Method
+OSD Opacity
+Off = raw stick passthrough; processor short-circuits.
+Off = reopen at the last tab (default).
+Off lets you give the right stick, left stick and buttons their own individual colors and effects.
+Offboarding
+On + Boost
+On / Off
+On = rainbow. Off = your colour(s).
+On battery &#x1F50B;
+Only E-Cores
+Only Joystick Data
+Only versions newer than yours are shown (no downgrades). Experimental test builds are flagged. The signed helper downloads and runs the installer — a PowerShell window shows the progress.
+Open Keyboard
+Open Xbox Game Bar (Win+G)
+Open a specific tab on Game Bar open
+Opens Windows Settings → Apps so you can remove ClawTweaks. Run Factory Reset first to clean up all profiles and settings.
+Optimize
+Or open usbip-win2 releases
+Orthogonal
+Output
+Output Mix
+Output mix
+Overlay Font
+Override default TDP values for modes
+Override the standard controller mode for this game only. Helps with titles that have issues with the virtual controller (e.g. NBA 2K26).
+P-Core Max Frequency
+PS4 (Motion)
+PS4 (Stick)
+Parallel
+Parallel or Orthogonal handheld posture
+Path to .exe or .ps1
+PawnIO SMU Tools
+PawnIO: Checking...
+Per Game performance &amp; display profile
+Perf. Overlay
+Performance
+Performance Mode
+Pick which of the two custom presets to edit — the checkboxes below show what that preset displays, in its own order. Basic and Horizontal are fixed ClawTweaks presets and are not editable.
+Pin Frametime Graph
+Plugged in &#x26A1;
+Polar Ice
+Position Shift
+Power
+Power Curve
+Power curve
+Precision Speed
+Precision speed
+Prefer executable
+Preserve HDR through scaling/FG
+Press (ms)
+Press Read RPM to read the live fan speed.
+Press Refresh to read the Intel thermal stack status.
+Press the Left MSI button to test…
+Previous image
+Processor Scheduling Policy
+Profiles (Performance &amp; Display)
+Quiet
+Quiet Idle
+R-Stick
+R2
+R3
+R4
+RB
+ROG Ally
+RS
+RS→Mouse, DPAD/LS→Arrows, A→Enter, B→Esc (Ctrl+Shift+D)
+RT
+RTSS
+RTSS default (Unispace)
+RTSS draws inside games only. The built-in overlay also shows on the desktop.
+RTSS: Checking...
+Rainbow
+Re-Map Specific Buttons to Another Button
+Re-read firmware
+Reduce OSD brightness to protect OLED pixels
+Reduces sensitivity below this speed
+Remap controller buttons to keyboard or mouse
+Remapped: 
+Remove individual tools. Each row shows the current status and lets you uninstall independently.
+Renderer
+Reorder (drag or use arrows)
+Replaces the legacy ViGEm controller emulation with VIIPER (USBIP-based). Requires usbip-win2. Toggling restarts controller emulation.
+Res
+Reset All Re-Mappings Below
+Reset gyro settings to recommended defaults
+Reset sticks &amp; triggers to default
+Reset to 0
+Reset to neutral
+Reset to recommended defaults
+Resize Before Scale
+Retro Scaling
+Riff_Lash (EnterTheVoidCode)
+Right
+Right Click
+Right Stick Click
+Right click (configurable)
+Right controller
+RivaTuner Statistics Server — FPS limiter and on-screen overlay.
+RivaTuner Statistics Server. Draws the on-screen overlay (FPS, TDP, temps) and enforces the FPS limiter.
+Rivatuner Statistics Server
+Rumble strength + stick deadzones
+Run Command
+Runs a second action on a quick double-press.
+Scan to support on Ko-fi
+Scope: Global profile
+Scroll
+Scroll Click:
+Scroll:
+Section Navigation
+Select Mode
+Select Multiplier
+Select Size
+Select Type
+Select action...
+Select double-click action...
+Select up to 6 metrics below
+Select which gyroscope to use
+Select which physical gamepad family to cloak
+Send to Joystick
+Send to joystick
+Set TDP Mode to &#x22;Slider&#x22; to enable manual TDP control.
+Set iGPU frequency
+Set the controller LED color.
+Set up Left MSI (Claw) button
+Set up Left MSI button →
+Sets PL2 (boost limit) directly to the chosen wattage. Must be higher than PL1 — automatically raised to PL1+1W if set too low.
+Sets PL2 directly. Must be higher than PL1. Capped at 37W.
+Setup &amp; Onboarding
+Sharp
+Shift+Tab
+Shifts OSD every minute to prevent burn-in
+Show Window
+Show current firmware keyboard mappings
+Silent
+Single&#10;click
+Size
+Slider
+Slow
+Slow-tilt damping. 0 = off.
+Small
+Smooth Sync
+Smooth recovery above threshold
+Smoothing
+Snap window to integer ratio before upscale
+Soft
+Software-controlled fan curve based on CPU temperature
+Sort by
+Source, simulation mode, and activation settings
+Speed
+Speed Sync
+Speed at which the stick reaches full deflection.
+Speed for full stick deflection
+Spot if i
+Start
+Start Intel tasks
+Start a game to enable a per-game controller profile.
+Static
+Status: Checking...
+Steam Deck
+Steam sub-device
+Stepless (1 FPS steps)
+Stick
+Stick &amp; Trigger Settings
+Stop Intel tasks
+Stop charging once the battery reaches the level below.
+Switch tabs left / right
+Sync &amp; Display
+Sync Mode
+Sync right stick, left stick &amp; buttons
+Synthesizes a stick contribution from gyro motion for emulated targets without a native motion field (Xbox 360, Xbox Elite 2, Switch Pro).
+TDP
+TDP (high → low)
+TDP Settings have been moved to the Performance tab (TDP Mode card).
+Tab
+Tab Navigation
+Tab Settings
+Tap Refresh to check the current state.
+Tap Refresh to read the controller.
+Tap a tile to select it, then tap another to swap positions. Use Show/Hide to toggle visibility. You can create custom tiles for any action — including OS shortcuts, TDP steps, and FPS limiter cycling — and assign controller button combinations to trigger or cycle through them directly without opening the widget.
+Tap to install
+Tap to view on the Drivers tab
+Target
+Task Manager
+Tctl Temp Limit (°C)
+The AMD overlay is controlled through Adrenaline software. Use Ctrl+Shift+O to toggle and Ctrl+Shift+X to cycle overlay levels.
+The custom fan curve normally only rests at 0 (off) or 40 % and above, and the graph is drawn with a break across that gap. The reason: on both the Claw 8 AI+ and the Claw 8 EX the fan sits on its minimum-spin plateau below ~40, so 20 and 40 measured the same RPM — a slider that promises a difference it cannot deliver.
+Theme, app font and glass effect for the widget UI
+These are checked together. „Re-check tools“ asks again after you installed something.
+Threshold
+Tiny Center M
+Toggle a button
+Toggle enables/disables CPU Boost. Expand for scheduling policy and P/E core max frequency.
+Top center
+Top left
+Top right
+Touchpad &amp; Vibration
+Touchpad Enabled
+Touchpad and haptic feedback settings
+Touchpad, LED, rumble, and button layout
+Troubleshooting and diagnostic tools
+Tune vibration response for virtual gamepad rumble
+Turn this on to lift the restriction: every value 1–39 becomes settable and the axis is drawn straight. Nothing about the EC write changes — those values were always sent as-is. Switching it back off snaps the curve onto the allowed values again.
+USB/IP kernel driver for VIIPER controller emulation.
+USB/IP kernel driver powering the default VIIPER controller emulation (button remapping, gyro-as-stick, Mouse Mode). Install it through CTW Center, then reboot once.
+Undervolt: negative, Overvolt: positive
+Unlimited
+Unsaved changes
+Up
+Up to 180 FPS
+Use .exe name, fall back to window title if unavailable
+Use Hardware Controller for this Game
+Use Legion HID gamepad reads instead of stock XInput reads (Legion Go / Go 2)
+Use Lenovo Modes
+Use VIIPER emulation (recommended)
+Use a joystick to control mouse cursor
+Use extra profile for battery and plugged in sessions
+Use hardware modes for Quiet/Balanced/Performance
+Use modded Wi-Fi driver (theboss619) — at your own risk
+V-Sync behaviour
+VIIPER Device
+VIIPER emulation needs the usbip-win2 kernel driver. Download + install the signed driver, reboot, then come back here.
+VRR
+VRR Mode
+VRS
+Value
+Vertical Custom
+Vertical Gain
+ViGEmBus is the old controller-emulation driver. The default backend is now VIIPER (usbip-win2), so ViGEm is optional — only install it if you switch the backend to Legacy under System → Debug. It does not affect onboarding completion while VIIPER is active.
+ViGEmBus: Checking...
+Vibration &amp; Deadzone
+View + A
+View + B
+View + X
+View + Y
+Virtual (Sensor API)
+Virtual Mouse
+ViscaBarca
+W
+WGC = best compat, DXGI = lower latency, GDI = legacy
+Wave
+When a non-Xbox device (e.g. DualShock 4) is emulated, temporarily present it as an Xbox 360 pad while the Game Bar is open so the overlay navigates cleanly (some pads spam the right trigger). Swaps back on close. Briefly disconnects the virtual controller — a running game may notice.
+When the virtual controller is active, ClawTweaks jumps to a specific widget.
+Where VRR applies
+Which device scales
+Which emulated stick receives the gyro contribution.
+Which gyro axes drive the stick. Yaw = look L/R, Roll = tilt L/R, Yaw+Roll = both.
+Win+D (Show Desktop)
+Win+Tab (Task View)
+Windows
+Write a value, then listen. Read-back confirms what landed in the EC.
+Writes a raw byte to an EC block (default 152) to find a proportional fan-duty register. Sweep + Write, then listen. Set value back to 0 when done.
+X
+X-Large
+XInput (any controller)
+XInput slots connected
+XX-Large
+XXX-Large
+Xbox
+Xbox (Stick)
+Xbox 360 bridge (VID 045E:028E)
+Xbox Elite 2
+Xbox Guide
+Xbox Guide remap requires ViGEmBus driver
+X→
+Y
+Y1
+Y1 (back L upper)
+Y2
+Y2 (back L lower)
+Y3
+Y3 (back R upper)
+Your saved per-game performance &amp; display profiles
+Y→
+Z
+Zone
+Zotac Zone
+Z→
+e.g. C:\path\app.exe -arg1
+https://example.com
+iGPU Clock (MHz)
+usbip-win2 driver: checking...
+usbip-win2: Checking...
+⚠ usbip-win2 required
