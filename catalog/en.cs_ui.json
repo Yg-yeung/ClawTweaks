@@ -1,0 +1,528 @@
+{
+ " → ": [
+  "XboxGamingBar/Features/Controller/GamingWidget.GamepadButtonRemapping.cs"
+ ],
+ "+ Add button": [
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.Grid.cs"
+ ],
+ "--": [
+  "XboxGamingBar/Features/OSD/GamingWidget.FanCurveGraph.cs",
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.Metrics.cs"
+ ],
+ "-- RPM": [
+  "XboxGamingBar/Features/OSD/GamingWidget.FanCurveGraph.cs"
+ ],
+ "...": [
+  "XboxGamingBar/Features/Labs/GamingWidget.Labs.cs"
+ ],
+ "0": [
+  "XboxGamingBar/Features/Debug/GamingWidget.PawnIODebug.cs"
+ ],
+ "0%": [
+  "XboxGamingBar/Features/Controller/GamingWidget.TriggerTravel.cs"
+ ],
+ "800": [
+  "XboxGamingBar/Features/Debug/GamingWidget.PawnIODebug.cs"
+ ],
+ "95": [
+  "XboxGamingBar/Features/Debug/GamingWidget.PawnIODebug.cs"
+ ],
+ "99%": [
+  "XboxGamingBar/Features/Controller/GamingWidget.TriggerTravel.cs"
+ ],
+ "AMD Fluid Motion Frames has been automatically disabled because it conflicts with Lossless Scaling Frame Generation.": [
+  "XboxGamingBar/Features/LosslessScaling/GamingWidget.LosslessScaling.cs"
+ ],
+ "All cores active": [
+  "XboxGamingBar/Features/Performance/GamingWidget.Advanced.cs"
+ ],
+ "All settings have been cleared. The app will now close.\\n\\nReopen Game Bar to start fresh.": [
+  "XboxGamingBar/Features/System/GamingWidget.FactoryReset.cs"
+ ],
+ "Applying...": [
+  "XboxGamingBar/Features/Debug/GamingWidget.PawnIODebug.cs"
+ ],
+ "Applying…": [
+  "XboxGamingBar/Features/Devices/GamingWidget.TinyCenterM.cs",
+  "XboxGamingBar/Features/Setup/GamingWidget.Onboarding.cs"
+ ],
+ "Balanced": [
+  "XboxGamingBar/Features/OSD/GamingWidget.OSDCustomization.cs"
+ ],
+ "Blocked by MSI Center M — turn it off first.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.GpdTabCallbacks.cs"
+ ],
+ "Blocked by Steam Xbox driver — disable it in Steam Settings → Controller.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.GpdTabCallbacks.cs"
+ ],
+ "CPU: Error": [
+  "XboxGamingBar/Features/Debug/GamingWidget.PawnIODebug.cs"
+ ],
+ "CPU: Helper not connected": [
+  "XboxGamingBar/Features/Debug/GamingWidget.PawnIODebug.cs"
+ ],
+ "CPU: PawnIO not available": [
+  "XboxGamingBar/Features/Debug/GamingWidget.PawnIODebug.cs"
+ ],
+ "CTW Center is not installed": [
+  "XboxGamingBar/Features/GoTweaksUpdate/GamingWidget.AppUpdate.cs"
+ ],
+ "CTW Center is the desktop app that installs and updates ClawTweaks. ": [
+  "XboxGamingBar/Features/GoTweaksUpdate/GamingWidget.AppUpdate.cs"
+ ],
+ "Cancel": [
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.Grid.cs"
+ ],
+ "Check for Update": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Checking applied values…": [
+  "XboxGamingBar/Features/Devices/GamingWidget.MsiFanControl.cs"
+ ],
+ "Checking for updates...": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Checking which tools are installed. Install the missing ones with CTW Center — it links to each vendor's own installer.": [
+  "XboxGamingBar/Features/Setup/GamingWidget.Onboarding.cs"
+ ],
+ "Checking...": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Checking…": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs",
+  "XboxGamingBar/Features/Setup/GamingWidget.Onboarding.cs"
+ ],
+ "ClawTweaks was updated. Please reboot to make sure everything is running cleanly.": [
+  "XboxGamingBar/Features/Connection/GamingWidget.ConnectionBanner.cs"
+ ],
+ "Clear": [
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.Grid.cs"
+ ],
+ "Complete the setup (Setup tab) before enabling controller emulation.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.GpdTabCallbacks.cs"
+ ],
+ "Connected": [
+  "XboxGamingBar/Features/Connection/GamingWidget.ConnectionBanner.cs"
+ ],
+ "Connecting...": [
+  "XboxGamingBar/Features/Connection/GamingWidget.ConnectionBanner.cs"
+ ],
+ "Controller emulation is not available on this handheld.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.GpdTabCallbacks.cs"
+ ],
+ "Core parking and affinity settings": [
+  "XboxGamingBar/Features/Performance/GamingWidget.Advanced.cs"
+ ],
+ "Couldn't open the browser for that link.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Couldn't open the browser for the Intel DSA page.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Couldn't read the controller right now — try again in a moment.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.TinyCenterM.cs"
+ ],
+ "DAService not found on this system": [
+  "XboxGamingBar/Features/Labs/GamingWidget.Labs.cs"
+ ],
+ "Delete downloaded installer?": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Disable": [
+  "XboxGamingBar/Features/Labs/GamingWidget.Labs.cs"
+ ],
+ "Disable Game Bar on Guide button": [
+  "XboxGamingBar/Features/Setup/GamingWidget.Onboarding.cs"
+ ],
+ "Disconnected": [
+  "XboxGamingBar/Features/Connection/GamingWidget.ConnectionBanner.cs"
+ ],
+ "Done": [
+  "XboxGamingBar/Features/Setup/GamingWidget.Onboarding.cs"
+ ],
+ "Done!": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Done. Sign out and back in (or reboot) so Windows stops opening the Game Bar on the Guide button.": [
+  "XboxGamingBar/Features/Setup/GamingWidget.Onboarding.cs"
+ ],
+ "Download started in the background": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Downloading\\u2026": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Downloading…": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Editing the overlay that is active right now.": [
+  "XboxGamingBar/Features/OSD/GamingWidget.OSDCustomization.cs"
+ ],
+ "Emulation off": [
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.TileStates.cs"
+ ],
+ "Enable": [
+  "XboxGamingBar/Features/Labs/GamingWidget.Labs.cs"
+ ],
+ "Export All Data": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Export Failed": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Export Logs": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Exported!": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Exporting...": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "FPS Mode": [
+  "XboxGamingBar/Features/Profile/GamingWidget.ProfileDisplay.cs"
+ ],
+ "Factory Reset": [
+  "XboxGamingBar/Features/System/GamingWidget.FactoryReset.cs"
+ ],
+ "Failed": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Gyro": [
+  "XboxGamingBar/Features/Profile/GamingWidget.ProfileDisplay.cs"
+ ],
+ "Helper not connected": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs",
+  "XboxGamingBar/Features/Debug/GamingWidget.PawnIODebug.cs"
+ ],
+ "Helper not connected — can't delete.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Helper not connected — can't download.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Helper not connected — can't install.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Helper not connected — can't run installer.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Helper not connected.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs",
+  "XboxGamingBar/Features/Devices/GamingWidget.MsiFanControl.cs"
+ ],
+ "Helper not connected. Try again once the widget reconnects.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Helper returned a response the widget couldn't parse.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Helper returned an unexpected response shape.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "HidHide: Error": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "HidHide: Installing...": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "HidHide: Uninstalling... (reboot may be required)": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Import All Data": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Imported!": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Importing...": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Install": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Install HidHide": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Install ViGEmBus": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Install with CTW Center": [
+  "XboxGamingBar/Features/GoTweaksUpdate/GamingWidget.AppUpdate.cs"
+ ],
+ "Installed (Not Running)": [
+  "XboxGamingBar/Features/LosslessScaling/GamingWidget.LosslessScaling.cs"
+ ],
+ "Installed and Running": [
+  "XboxGamingBar/Features/LosslessScaling/GamingWidget.LosslessScaling.cs"
+ ],
+ "Installed version: unknown": [
+  "XboxGamingBar/Features/GoTweaksUpdate/GamingWidget.AppUpdate.cs"
+ ],
+ "Installing...": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs",
+  "XboxGamingBar/Features/Setup/GamingWidget.Onboarding.cs"
+ ],
+ "Installing\\u2026": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Intel": [
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.Actions.cs"
+ ],
+ "Launch": [
+  "XboxGamingBar/Features/LosslessScaling/GamingWidget.LosslessScaling.cs"
+ ],
+ "Launching helper...": [
+  "XboxGamingBar/Features/Connection/GamingWidget.ConnectionBanner.cs"
+ ],
+ "Launching...": [
+  "XboxGamingBar/Features/LosslessScaling/GamingWidget.LosslessScaling.cs"
+ ],
+ "Loading...": [
+  "XboxGamingBar/Features/Connection/GamingWidget.ConnectionBanner.cs"
+ ],
+ "Lossless Scaling Frame Generation has been automatically disabled because it conflicts with AMD Fluid Motion Frames.": [
+  "XboxGamingBar/Features/LosslessScaling/GamingWidget.LosslessScaling.cs"
+ ],
+ "MSI Center M takes over the controller and cannot run alongside the virtual one.\\n\\n": [
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.Actions.cs"
+ ],
+ "MSI max 75%": [
+  "XboxGamingBar/Features/Devices/GamingWidget.MsiFanControl.cs"
+ ],
+ "Main mode: Hardware Controller — native XInput + firmware remaps (no gyro/Mouse Mode/macros). Per game: enable the Controller Profile to use Virtual as an exception.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.GpdTabCallbacks.cs"
+ ],
+ "Main mode: Virtual Controller — emulated pad, gyro, Mouse Mode & macros. Per game: enable the Controller Profile to use Hardware as an exception.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.GpdTabCallbacks.cs"
+ ],
+ "Mode": [
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.TileStates.cs"
+ ],
+ "N/A": [
+  "XboxGamingBar/GamingWidget.xaml.cs"
+ ],
+ "No Helper": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "No download URL for that driver.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "No response from helper": [
+  "XboxGamingBar/Features/Debug/GamingWidget.PawnIODebug.cs"
+ ],
+ "No response from helper.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "No saved game profiles yet. Play a game with Per-Game Profiles enabled to create profiles.": [
+  "XboxGamingBar/Features/Profile/GamingWidget.ProfileCards.cs"
+ ],
+ "Non-Xbox controller type": [
+  "XboxGamingBar/Features/Debug/GamingWidget.ViiperToggle.cs"
+ ],
+ "Not Installed": [
+  "XboxGamingBar/Features/LosslessScaling/GamingWidget.LosslessScaling.cs"
+ ],
+ "Not connected to helper": [
+  "XboxGamingBar/Features/Connection/GamingWidget.ConnectionBanner.cs"
+ ],
+ "Not connected to helper — try again after reconnecting.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "OFF": [
+  "XboxGamingBar/Features/Debug/GamingWidget.ViiperStickGyro.cs"
+ ],
+ "Off": [
+  "XboxGamingBar/Features/Controller/GamingWidget.GamepadPicker.cs",
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.TileStates.cs",
+  "XboxGamingBar/GamingWidget.xaml.cs"
+ ],
+ "Open": [
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.TileStates.cs"
+ ],
+ "Open release page": [
+  "XboxGamingBar/Features/GoTweaksUpdate/GamingWidget.AppUpdate.cs"
+ ],
+ "PawnIO driver is installed. Signed kernel driver for anti-cheat safe hardware access.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Prepare for Uninstall": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Put the device down flat, then recenter — the gyro zero point is re-learned within a second.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "RTSS": [
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.Actions.cs"
+ ],
+ "Re-check tools": [
+  "XboxGamingBar/Features/Setup/GamingWidget.Onboarding.cs"
+ ],
+ "Reading controller…": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Reboot recommended": [
+  "XboxGamingBar/Features/Connection/GamingWidget.ConnectionBanner.cs"
+ ],
+ "Reconnecting...": [
+  "XboxGamingBar/Features/Connection/GamingWidget.ConnectionBanner.cs"
+ ],
+ "Reset complete": [
+  "XboxGamingBar/Features/System/GamingWidget.FactoryReset.cs"
+ ],
+ "Reset failed": [
+  "XboxGamingBar/Features/System/GamingWidget.FactoryReset.cs"
+ ],
+ "Restart Helper": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Restarting...": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Restoring...": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Save": [
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.Grid.cs"
+ ],
+ "Scope: Global profile": [
+  "XboxGamingBar/GamingWidget.xaml.cs"
+ ],
+ "Select 2 or more buttons, then Save": [
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.Grid.cs"
+ ],
+ "Select TDP control method. Manufacturer WMI (Legion) and PawnIO are anti-cheat safe.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Select TDP control method. PawnIO is anti-cheat safe. WinRing0 may trigger anti-cheat.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Service disabled - Legion L/R buttons disabled": [
+  "XboxGamingBar/Features/Labs/GamingWidget.Labs.cs"
+ ],
+ "Service running - Legion Space controls buttons": [
+  "XboxGamingBar/Features/Labs/GamingWidget.Labs.cs"
+ ],
+ "Service starting... please wait": [
+  "XboxGamingBar/Features/Labs/GamingWidget.Labs.cs"
+ ],
+ "Service stopping... please wait": [
+  "XboxGamingBar/Features/Labs/GamingWidget.Labs.cs"
+ ],
+ "Setup in Settings": [
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.TileStates.cs"
+ ],
+ "Setup running — please confirm the Windows admin (UAC) prompt. In fullscreen games it opens in the background, so switch to the desktop (Win/Alt+Tab) to confirm. The widget reloads automatically.": [
+  "XboxGamingBar/Features/Connection/GamingWidget.ConnectionBanner.cs"
+ ],
+ "Signed kernel driver for hardware access. Replaces WinRing0.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Slider": [
+  "XboxGamingBar/Features/Performance/GamingWidget.TdpCustomPresets.cs"
+ ],
+ "Slider (Manual)": [
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.Actions.cs"
+ ],
+ "Status: Error": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Status: Installing...": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "Still working or no response — check the status lines, or tap „Re-check tools“.": [
+  "XboxGamingBar/Features/Setup/GamingWidget.Onboarding.cs"
+ ],
+ "Switch to the hardware controller first": [
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.Actions.cs"
+ ],
+ "Syncing...": [
+  "XboxGamingBar/Features/Connection/GamingWidget.ConnectionBanner.cs"
+ ],
+ "TDP Overboost": [
+  "XboxGamingBar/Features/Profile/GamingWidget.ProfileDisplay.cs"
+ ],
+ "Tap to open CTW Center": [
+  "XboxGamingBar/Features/GoTweaksUpdate/GamingWidget.GoTweaksUpdate.cs"
+ ],
+ "This is a large driver package (the Intel Arc download is over 800 MB), ": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "This will delete ALL profiles, controller settings, TDP presets, custom tiles, Quick Settings and all other user data.\\n\\nThe app will restart with factory defaults.\\n\\nThis cannot be undone.": [
+  "XboxGamingBar/Features/System/GamingWidget.FactoryReset.cs"
+ ],
+ "Toggle": [
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.TileStates.cs"
+ ],
+ "Toggle enables/disables CPU Boost. Scheduling policy and P/E core max frequency are not available on this device.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.MsiClawSettings.cs"
+ ],
+ "Turbo": [
+  "XboxGamingBar/Features/Controller/GamingWidget.ControllerProfileStorage.cs"
+ ],
+ "Uninstall": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs",
+  "XboxGamingBar/Features/Setup/GamingWidget.Onboarding.cs"
+ ],
+ "Uninstalling...": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs",
+  "XboxGamingBar/Features/Setup/GamingWidget.Onboarding.cs"
+ ],
+ "Update": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "Updating — a UAC prompt may appear in the background. Please confirm it to complete the update.": [
+  "XboxGamingBar/Features/Connection/GamingWidget.ConnectionBanner.cs"
+ ],
+ "Use Center": [
+  "XboxGamingBar/Features/Debug/GamingWidget.DebugPanel.cs"
+ ],
+ "VID:PID --": [
+  "XboxGamingBar/GamingWidget.xaml.cs"
+ ],
+ "Values reset (not applied)": [
+  "XboxGamingBar/Features/Debug/GamingWidget.PawnIODebug.cs"
+ ],
+ "ViGEmBus: Error": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "ViGEmBus: Installing...": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "ViGEmBus: Uninstalling...": [
+  "XboxGamingBar/Features/Devices/GamingWidget.LegionGo.cs"
+ ],
+ "What's new": [
+  "XboxGamingBar/Features/GoTweaksUpdate/GamingWidget.AppUpdate.cs"
+ ],
+ "You can close this window. Press Win + G to open the Xbox Game Bar, select ClawTweaks, and wait for the administrator prompt to appear — approve it to finish.": [
+  "XboxGamingBar/App.xaml.cs"
+ ],
+ "installed=0|1;url=…": [
+  "Shared/Enums/Function.cs"
+ ],
+ "unknown": [
+  "XboxGamingBar/Features/Devices/GamingWidget.TinyCenterM.cs"
+ ],
+ "x": [
+  "XboxGamingBar/Features/QuickSettings/GamingWidget.QuickSettings.Grid.cs"
+ ],
+ "×": [
+  "XboxGamingBar/Features/Controller/GamingWidget.ControllerProfileStorage.cs",
+  "XboxGamingBar/Features/Controller/GamingWidget.GamepadButtonRemapping.cs",
+  "XboxGamingBar/Features/Controller/GamingWidget.LeftMsiDoubleClick.cs",
+  "XboxGamingBar/Features/Hotkeys/GamingWidget.KeyDropdowns.cs"
+ ],
+ "▾": [
+  "XboxGamingBar/Features/Controller/GamingWidget.GamepadPicker.cs"
+ ],
+ "✗ Could not read fan values from the EC.": [
+  "XboxGamingBar/Features/Devices/GamingWidget.MsiFanControl.cs"
+ ],
+ "＋": [
+  "XboxGamingBar/Features/Controller/GamingWidget.GamepadPicker.cs"
+ ],
+ "🗑️": [
+  "XboxGamingBar/Features/Profile/GamingWidget.ProfileCards.cs"
+ ]
+}
