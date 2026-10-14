@@ -1,27 +1,72 @@
-# zh-CN (简体中文) Localization Reference
+# zh-CN (简体中文) Localization Reference · 中文汉化参考
 
-> This file is a **documentation-only** contribution. It describes a Simplified Chinese 
-> localization mirror of ClawTweaks and serves as a notice + translation reference for the maintainer.
-
-## Notice / 告知
-
-Hello! A community-maintained **Simplified Chinese (zh-CN) localization** of ClawTweaks is maintained at:
-
-- **Fork:** https://github.com/Yg-yeung/ClawTweaks  · branch `zh-CN`
-- **Coverage:** XAML UI 915/1058 (86.5%), C# runtime UI 145/171 (84.8%).
-  Remaining strings are intentionally untranslated (units like `1200 MHz`, button combos like `Menu + ←`, glyphs, font/brand names).
-- **Approach:** source-level dictionary + regeneration pipeline (`tools/`), does not modify the source tree; terminology fixed in `translations/GLOSSARY.md`.
-- **Sync:** re-extracted and incrementally updated on every upstream release.
-
-The maintainer is invited to:
-1. consider official multi-language support (zh-CN, possibly zh-TW); and/or
-2. take the translations in whatever format is preferred (`.resw` / `.po` / JSON).
-
-No pressure — this can stay a standalone mirror. Thanks for ClawTweaks!
+> **Documentation-only contribution — no source changes.**
+> 仅文档贡献，不改动上游任何源码。
 
 ---
 
-## Terminology glossary (节选 / excerpt)
+## English
+
+### What this is
+A community-maintained **Simplified Chinese (zh-CN)** localization of the ClawTweaks Xbox Game Bar widget.
+It is kept as a fork, not as a patch to the upstream tree:
+
+- **Fork:** https://github.com/Yg-yeung/ClawTweaks · branch `zh-CN`
+- **This file** is a notice + translation reference for the maintainer.
+
+### Coverage
+| Corpus | Translated |
+|---|---|
+| XAML UI strings | **915 / 1058 (86.5%)** |
+| C# runtime UI strings | **145 / 171 (84.8%)** |
+
+The remaining strings are intentionally left untranslated: units (`1200 MHz`), button combos (`Menu + ←`), glyph entities (`&#xE70D;`), font names (`Bahnschrift…`) and brand/device names.
+
+### Approach
+A source-level **dictionary + regeneration pipeline** (in the fork's `tools/`). It never edits the upstream source tree — the dictionary is applied to a fresh upstream snapshot on every run, so it cannot cause merge conflicts. Terminology is fixed in `translations/GLOSSARY.md`.
+
+### Tracking upstream
+On every upstream change the strings are re-extracted, the dictionary is updated incrementally, and the translated tree is regenerated — so the localization stays in sync with new releases.
+
+### Request to the maintainer
+1. Would you be open to official multi-language support (zh-CN, possibly zh-TW)?
+2. If so, I'm glad to contribute the translations in whatever format you prefer (`.resw` / `.po` / JSON).
+
+No pressure — this can simply remain a standalone mirror. Thanks for ClawTweaks!
+
+---
+
+## 中文说明
+
+### 这是什么
+这是社区维护的 **ClawTweaks（Xbox Game Bar 组件）简体中文汉化**，以 fork 形式维护，而不是直接修改上游源码树：
+
+- **Fork：** https://github.com/Yg-yeung/ClawTweaks · 分支 `zh-CN`
+- **本文件** 是给作者的告知 + 翻译参考。
+
+### 覆盖范围
+| 语料 | 已翻译 |
+|---|---|
+| XAML 界面文案 | **915 / 1058（86.5%）** |
+| C# 运行时文案 | **145 / 171（84.8%）** |
+
+其余字符串有意保留不译：单位（`1200 MHz`）、按键组合（`Menu + ←`）、字形实体（`&#xE70D;`）、字体名（`Bahnschrift…`）以及品牌/设备名。
+
+### 实现方式
+源码级 **「词典 + 重生成」管线**（位于 fork 的 `tools/`）。它从不改动上游源码树——每次都用词典对一份全新的上游快照重新生成，因此不会产生合并冲突。术语固定在 `translations/GLOSSARY.md`。
+
+### 跟随上游更新
+上游每次变动后，重新抽取字符串、增量更新词典、重新生成译文树，使汉化始终与新版本保持同步。
+
+### 想请作者考虑
+1. 是否愿意官方支持多语言（zh-CN，或再加 zh-TW）？
+2. 若愿意，我很乐意按你偏好的格式（`.resw` / `.po` / JSON）贡献译文。
+
+不勉强——保持独立镜像也完全可以。感谢作者带来 ClawTweaks！
+
+---
+
+## Terminology glossary · 术语对照
 
 | English | 中文 |
 |---|---|
@@ -71,7 +116,7 @@ No pressure — this can stay a standalone mirror. Thanks for ClawTweaks!
 | handheld | 掌机 |
 | posture | 持机姿态 |
 
-## Sample translations (样例 / sample)
+## Sample translations · 译文样例
 
 | English | 中文 |
 |---|---|
